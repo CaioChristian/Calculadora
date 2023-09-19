@@ -1,0 +1,50 @@
+body{
+    background-color: darkslategrey;
+    padding: 90px;
+    background-image: url(Astronaut.jpg);
+    background-size: cover;
+}
+
+.calculadora{
+    width: 200px;
+    height: 250px;
+    margin: auto;
+    background-color: #FFF;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, .30);
+}
+
+.display{
+    display: flex;
+    justify-content: flex-end;
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #c90c51;
+    color: black;
+    font: normal 4rem serif;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.botoes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+button{
+    background-color: royalblue;
+    color: white;
+    border-radius: 3px;
+    font-size: 1.1rem;
+    cursor:pointer;
+    transition: all 0.2s;
+}
+
+button:hover{
+    background-color: white;
+    color: royalblue;
+    transform: scale(1.1);
+}
